@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["{app,config,lib}/**/*", "MIT-LICENSE", "README.md"]
-  s.require_paths = %w(lib)
+  s.require_paths = %w(lib lib/graphql_metrics)
 
   s.add_dependency "rails", ">= 4.2.6"
   s.add_dependency "slim"
